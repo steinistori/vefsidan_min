@@ -42,13 +42,8 @@
 					<section id="wrapper">
 						<header>
 							<div class="inner">
-								<h2>3D prent prufa</h2>
-								<p>Hópmeðlimir:</p>
-                                    <ul>
-                                        <li>Birkir Jóhannes Ómarsson</li>
-                                        <li>Sigurður Rúnar Jóhannsson</li>
-                                        <li>Þorsteinn Jónsson</li>
-                                    </ul>
+								<h2>Kortaveski</h2>
+								<p>3D prentað veski fyrir kreditkort</p>
 							</div>
 						</header>
 
@@ -59,49 +54,107 @@
 									<section>
 										<h3 class="major">Um verkefnið</h3>
 										<p>Verkefnislýsing var svohljóðandi:</p>
-                                        <blockquote>Veljið 3D prentara og ákvarðið hönnunar reglur / þvinganir. Skráið á sameiginlegu vefsvæði.</blockquote>
+                                        <blockquote>Hannaðu módel fyrir 3D prentun sem ekki væri hægt að framkvæma með frádráttar framleiðslu (addative vs subtractive). Prentaðu hlutinn (max 100g af plasti skv. slicer). 3D Skannaðu einhvern hlut, t.d. með photogrammetríu. Sýndu framvinduna á heimasíðunni þinni.</blockquote>
 									</section>
                                     
                                     <section>
 										<h3 class="major">Undirbúningur</h3>
-										<p>Til að ákvarða hönnunar reglur / þvinganir er oft gott að prenta hlut sem prófar getu prentarans. Þessi hlutur prófar þá , til dæmis, getu til að prenta:</p> 
-                                            <ul>
-                                                <li>Lárétt án styrkingar</li>
-                                                <li>Skáhalla</li>
-                                                <li>Þunna hluti og þunn bil</li>
-                                            </ul>
-                                        <p>Hafliði kennari mælti með <a href="https://www.thingiverse.com/thing:2656594?fbclid=IwAR16aFtIyNOOctfx0Vq81oGjkZxQm9bi_6VGtP4JVfPT1J3nbakNYe4c2m8">þessum hlut</a> af <i>thingiverse.com</i> en prentaður vegur hann 50g sem okkur fannst heldur mikið. Við sáum hins vegar í lýsingunni á hlutnum hlekk á <a href="https://www.thingiverse.com/thing:2975429">þennan hlut</a> sem vegur aðeins 14g og á víst að vera betri að öllu leyti og ákváðum því að nota hann í staðinn.</p>
-                                        <p>Hér eru myndir af hlutunum tveimur:</p>
-                                        <span class="image fit"><img src="images/sidra3dTest.JPG" alt="" /></span>
-                                        <span class="image fit"><img src="images/betra3dTest.JPG" alt="" /></span>
+										<p>Áður en byrjað er að prenta með þrívíddarprentara er mikilvægt að vita hver takmörk prentarans eru. Til þess er gott að prenta litla prufu sem sýnir hvað prentarinn ræður við og hvað ekki. Prentun og niðurstöður þessarar prufu má sjá <a href="3dprinttest.html">hér</a>. </p>
+                                        <p>Mikill tími fór í hugmyndaleit. Erfitt reyndist að láta mér detta í hug eitthvað til að prenta út sem væri á sama tíma áhugavert og gagnlegt, en að lokum féllst ég á að prenta kortaveski eftir <a href="https://www.thingiverse.com/thing:4072298">þessari fyrirmynd</a>.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/veskiFyrirmynd2.jpg" alt="" /></span></div>
+												
+											</div>
+										</div>
                                         
-                                        
-                                        <p>Við ákváðum að notast við Prusa i3 Mk3 vegna þess að það var prentarinn sem var laus þegar kom að því að velja. Einnig var ákveðið að nota PLA plast þar sem sú plasttegund er umhverfisvænni en ABS plast. Auðvelt var að hlaða niður skjölunum sem þurfti til að prenta hlutinn og þá var hægt að setja þau inn á minnislykil og færa á tölvu í FabLab sem búin var Cura hugbúnaðinum. </p>
                                     </section>
                                     
                                     <section>
 										<h3 class="major">Framkvæmd</h3>
-										<p>Við náðum í .stl skrá fyrir hlutinn af linknum hér að ofan og færðum yfir í Cura sem er hugbúnaður sem notaður er til þess að skera þrívíddarhlutina niður svo prentarinn viti hvaða leið hann á að fara. Inni í Cura völdum við síðan hvaða prentara og hvaða plast við vorum að nota (í okkar tilfelli Prusa i3 mk3 og PLA) og fluttum síðan skrána sem Cura gaf yfir í prentarann með SD korti. </p>
-                                        
-                                        <span class="image fit"><img src="images/tCura.jpg" alt="" /></span>
-                                        <span class="image fit"><img src="images/tSliced.jpg" alt="" /></span>
-                                        <span class="image fit"><img src="images/CuraSettings.jpg" alt="" /></span>
+                                        <p>Ég byrjaði á að opna Fusion 360 og teikna upp skets að hulstrinu.</p>
+                                        <span class="image fit"><img src="images/kortSketch1.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/kortSketch2.png" alt="" /></span>
+                                        <p>Þá gat ég extrudað sketsana og mótað fyrstu mynd af hulstrinu.</p>
+                                        <span class="image fit"><img src="images/kortSketch3.png" alt="" /></span>
+                                        <p>Þá teiknaði ég skets fyrir pinnann sem fellur inn í hulstrið og er notaður til að ýta kortunum út.</p>
+                                        <span class="image fit"><img src="images/kortSketch4.png" alt="" /></span>
+                                        <p>Ég extrudaði pinnann, bætti þrepum á hann og rúnaði svo ákveðnar brúnir á honum.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-4"><span class="image fit"><img src="images/kortSketch5.png" alt="" /></span></div>
+												<div class="col-4"><span class="image fit"><img src="images/kortSketch6.png" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/kortSketch7.png" alt="" /></span></div>
+												
+											</div>
+										</div>
+                                        <p>Nú gat ég bætt innfellingum í hulstrið til að setja festingar innan á það og upphleyptum punktum til að styðja við kortin.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+                                                <div class="col-4"><span class="image fit"><img src="images/kortSketch8.png" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/kortSketch9.png" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/kortSketch10.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        <p>Þá teiknaði ég skets að festingu til að setja innan í veskið.</p>
+                                        <span class="image fit"><img src="images/kortSketch11.png" alt="" /></span>
+                                        <p>Ég extrudaði sketsinn og extrudaði svo litla pinna út úr götunum á festingunni. Þessir pinnar eru ætlaðir til að halda við kortin svo þau renni ekki úr veskinu.</p>
+                                        <span class="image fit"><img src="images/kortSketch12.png" alt="" /></span>
+                                        <p>Þá bjó ég til aðra festingu sem var spegilmynd þessarar og notaði síðan parametra til að laga stærð veskisins svo kreditkort gætu passað í það.</p>
+                                        <span class="image fit"><img src="images/kortParametrar.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/kortSketch13.png" alt="" /></span>
+                                        <p>Nú var komið að því að skreyta veskið. Ég bjá til tíglamunstur á svipaðan hátt og ég gerði fyrir <a href="vinrekki.html">vínrekkann</a> hér áður og gerði það upphleypt í aðra hlið veskisins.</p>
+                                        <span class="image fit"><img src="images/kortSketch14.png" alt="" /></span>
+                                        <p>Mig langaði að setja skjaldarmerki íslands á hina hliðina. Það reyndist eilítið hægara sagt en gert, en með smá leiðsögn gat ég það.</p>
+                                        <span class="image fit"><img src="images/Skjaldarmerki%20n%C3%BD%20l%C3%ADnuteikning%20sv%C3%B6rt.jpg" alt="" /></span>
+                                        <p>Fyrst hlóð ég niður línuteikningu af íslenska skjaldarmerkinu. Sú teikning var auðvitað á pixel formi svo ég setti hana inn í Inkscape og notaði Trace Bitmap tólið til að búa til vector teikningu úr henni.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+                                                <div class="col-6"><span class="image fit"><img src="images/skjaldarmerkiInkscape2.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/skjaldarmerkiInkscape3.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/skjaldarmerkiInkscape4.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/skjaldarmerkiInkscape5.png" alt="" /></span></div>
+											</div>
+										</div>
+                                    
+                                        <p>Þá gat ég vistað teikninguna sem .svg skrá og fært inn í Fusion 360 sem skets.</p>
+                                        <span class="image fit"><img src="images/kortSketch15.png" alt="" /></span>
+                                        <p>Ég notaði sketsinn til að búa til inndregna mynd af skjaldarmerkinu á hlið veskisins. Til að byrja með reyndi ég að gera þetta í eigin tölvu, en hún réð ekki við þetta þunga verk svo ég fékk að færa skjölin inn í tölvu í fablab sem éð við verkið og gera það þar. Þá var það tilbúið til prentunar</p>
+                                        <span class="image fit"><img src="images/kortSketch16.jpg" alt="" /></span>
+                                        <span class="image fit"><img src="images/kortSketch17.jpg" alt="" /></span>
+                                        <p>Nú þurfti ég bara að vista alla partana sem .stl skrár og færa inn í Cura þar sem ég gat ákveðið hvers konar styrkingar og stuðning ég vildi hafa og hversu nákvæmt ég vildi prenta. Ég ákvað að prenta í Utilmaker prentara því það gaf mér kost á að prenta stuðning úr vatnsleysanlegu plasti. Ég færði skjalið úr Cura og í Ultimaker prentarann og lét veskið prentast yfir nótt.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+                                                <div class="col-4"><span class="image fit"><img src="images/cura1.jpg" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/cura2.jpg" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/cura3.jpg" alt="" /></span></div>
+											</div>
+										</div>
 									</section>
                                     
                                     <section>
 										<h3 class="major">Niðurstöður</h3>
-										<p>Prentunin tók um það bil 2 tíma og 20 mínútur í framkvæmd. Niðurstöðurnar voru mis ásættanlegar:</p>
-                                                <ul>
-													<li>Overhang prufan var nokkuð vel heppnuð upp að 60°.</li>
-													<li>Brúunarprufan kom fullkomlega út með engum göllum.</li>
-													<li>Skarpleikaprufan kom heldur illa út með þó nokkrum göllum.</li>
-													<li>Mjóu línurnar voru rosalega slæmar, aðeins tvær þykkustu línurnar prentuðust og þær voru heldur ónákvæmar.</li>
-													<li>Mjóu bilin voru nokkuð góð, en heldur ójöfn.</li>
-                                                    <li>Strengja prófið kom ferkar vel út með aðeins örfáum strengjum á milli pinnanna.</li>
-												</ul>
-                                        <span class="image fit"><img src="images/tPrinting.jpg" alt="" /></span>
-                                        <span class="image fit"><img src="images/tReady.jpg" alt="" /></span>
-                                        <span class="image fit"><img src="images/tReady2.jpg" alt="" /></span>
+										<p>Prentunin tók um það bil 7 tíma og kom í sannleika sagt talsvert betur út en ég hafði þorað að vona. Það tók dágóða stund að leysa upp vatnsleysanlega plastið en þegar það var loks upp leyst var útlit veskisins mjög sannfærandi.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+                                                <div class="col-6"><span class="image fit"><img src="images/kortTilbuidSkjaldarmerki.jpg" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/kortTilbuidTiglar.jpg" alt="" /></span></div>
+											</div>
+										</div>
+                                        <p>Aftur á móti kom í ljós þegar ég reyndi að setja veskið saman, að það var ekki allt eins fullkomið og á horfðist. Erfitt var að koma pinnanum inn í veskið og þegar hann loksins small í stað, þá var mjög stíft að snúa honum. Þar að auki reyndist veskið örlítið of þröngt fyrir greiðslukort svo ég neyðist til að pússa niður innri brúnirnar á veskinu ásamt hliðunum á pinnanum. Eins og stendur er ég ekki búiunn að því en það verður gert á næstu dögum, vonandi verður þá hægt að nota veskið.</p>
+                                    </section>
+                                    
+                                    <section>
+										<h3 class="major">3D skönnun</h3>
+                                        <p>Auðvelt reyndist að 3D skanna með hjálp Xbox Kinect myndavélar og forritsins <a href="https://www.reconstructme.net/">ReconstructMe</a>. Einungis þurfti að tengja myndavélina og stilla fjarlægð inni í forritinu. Þá gat ég súið mér í hring framan við myndavélina og forritið bjó til þrívíddarlíkan af hausnum mínum.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+                                                <span class="image fit"><img src="images/3dScan2.jpg" alt="" /></span>
+                                                <div class="col-4"><span class="image fit"><img src="images/Steini3d1.png" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/Steini3d2.png" alt="" /></span></div>
+                                                <div class="col-4"><span class="image fit"><img src="images/Steini3d3.png" alt="" /></span></div>
+											</div>
+										</div>
                                         
                                     </section>
                                     
