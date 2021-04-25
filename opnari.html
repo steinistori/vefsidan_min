@@ -1,0 +1,190 @@
+<!DOCTYPE HTML>
+<!--
+	Solid State by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vefsíðan mín - Þorsteinn Jónsson</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Page Wrapper -->
+			<div id="page-wrapper">
+
+				<!-- Header -->
+					<header id="header">
+						<h1><a href="index.html">Þorsteinn Jónsson</a></h1>
+						<nav>
+							<a href="#menu">Valmynd</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<div class="inner">
+							<h2>Valmynd</h2>
+							<ul class="links">
+								<li><a href="index.html">Heim</a></li>
+								<li><a href="verkefni.html">Verkefnin mín</a></li>
+								<li><a href="about.html">Um mig</a></li>
+							</ul>
+							<a href="#" class="close">Close</a>
+						</div>
+					</nav>
+
+				<!-- Wrapper -->
+					<section id="wrapper">
+						<header>
+							<div class="inner">
+								<h2>BFlöskuopnari</h2>
+								<p>Flöskuopnari framleiddur með hjálp Shopbot fræsara og mótagerð</p>
+							</div>
+						</header>
+
+						<!-- Content -->
+							<div class="wrapper">
+								<div class="inner">
+
+									<section>
+										<h3 class="major">Um verkefnið</h3>
+										<p>Verkefnislýsingarnar voru svohljóðandi:</p>
+                                        
+                                        <blockquote>Hannið, teiknið, undirbúið og fræsið mót í annaðhvort frauðplast eða vax. Undirbúið toolpaths, þá bæði roughing of finishing. Skrá setjið framkvæmdina og afraksturinn á sameiginlegt vefsvæði. Lesið MSDS (öryggis leiðbeiningar fyrir viðeigandi efni).</blockquote>
+									</section>
+                                    
+                                    <section>
+										<h3 class="major">Undirbúningur</h3>
+										<p>Við byrjuðum á að ræða hugmyndir um verkefni og ákváðum að hanna og búa til flöskuopnara sem má setja á lyklakyppu sem parar vel við bjórkassann úr verkefni 4.</p>
+									</section>
+
+
+									<section>
+										<h3 class="major">Framkvæmd</h3>
+                                        <p>Fyrst hönnuðum við og teiknuðum upp flöskuopnarann í Fusion og pössuðum okkur að hafa origin fyrir miðju opnarans.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch1.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch2.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        
+                                        <p>Næst var box teiknað og sett utan um opnarann sem nýtt body með miðju í origin. Svo var opnarinn subtracted frá kassanum með combine skipuninni og búið til nýtt body út úr því. Það hjálpaði að breyta opacity kassans þannig að það var auðveldara að velja báða hlutina.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch3.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch4.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch5.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch6.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        <p>Þar næst var búið til plane fyrir miðju opnarans með midplane skipuninni og svo var notast við split skipunina til þess að skipta mótinu í tvennt</p>
+                                        <span class="image fit"><img src="images/opnariSketch7.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch8.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch9.png" alt="" /></span>
+                                        <p>Næst var registration sphere komið fyrir í horni neðri mótsins og svo var notast við rectangular pattern til þess að setja spheres í hin hornin. Síðan var neðra mótið með kúlunum skorið út úr efra mótinu.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch10.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch11.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch12.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch13.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        <p>Svo var búið til injection gat með því að nota hole skipunina, velja miðjuna á kassanum og stilla miðað við leiðbeiningar úr myndbandi frá kennara sem sjá má <a href="https://www.youtube.com/watch?v=vKZx9eHEL6o&t=650s&ab_channel=ProductDesignOnline">hér</a>.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch14.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch15.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        <p>Nú var efri og neðri mótið lagt hlið við hlið með því að nota align skipunina. Svo var búinn til annað box utan um mótin tvö þar sem neðri hlið mótanna og kassans voru samhliða. Svo var combine skipunin notuð til þess að skera mótin út úr nýja kassanum og þá var mótið fyrir mótin tilbúið.</p>
+                                        <div class="box alt">
+											<div class="row gtr-uniform">
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch16.png" alt="" /></span></div>
+												<div class="col-6"><span class="image fit"><img src="images/opnariSketch17.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch18.png" alt="" /></span></div>
+                                                <div class="col-6"><span class="image fit"><img src="images/opnariSketch19.png" alt="" /></span></div>
+											</div>
+										</div>
+                                        <span class="image fit"><img src="images/opnariSketch20.png" alt="" /></span>
+                                        <p>Næst var komið að því að gera CAM modeling í Fusion svo við skiptum yfir í manufacturing mode. </p>
+                                        <span class="image fit"><img src="images/opnariSketch21.png" alt="" /></span>
+                                        <p>Við byrjuðum á að búa til nýtt setup. Svo völdum við milling sem operation type og stilltum X,Y og Z ásanna okkar ásamt núllpunkti.</p>
+                                        <span class="image fit"><img src="images/opnariSketch22.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch23.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch24.png" alt="" /></span>
+                                        <p>Þegar setupið var búið völdum við 2d pocket. Þar völdum við tólið sem við vildum nota og allar stillingar miðað við það, völdum faces til þess að fræsa og notuðum simulation til þess að sjá hvernig mótið yrði fræst út.</p>
+                                        <span class="image fit"><img src="images/opnariSketch25.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch26.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch27.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch28.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch29.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch30.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch31.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch32.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch33.png" alt="" /></span>
+                                        <span class="image fit"><img src="images/opnariSketch34.png" alt="" /></span>
+                                        <p>Næsta skref væri þá að exporta G kóðanum og setja inn í fræsi og fræsa út. Því miður gafst okkur ekki tækifæri til þess að fræsa út mótið í raun og því eru allar stillingar settar á handahófsvalin gildi.</p>
+                                    </section>
+                                    
+								</div>
+							</div>
+
+					</section>
+
+				<!-- Footer -->
+					<section id="footer">
+						<div class="inner">
+							<h2 class="major">Hafðu samband</h2>
+							<p>Hægt er að nálgast mig á helstu samfélagsmiðlum eða í gegn um síma eða tölvupóst. Einnig er hægt að senda skilaboð í gegn um þessa vefsíðu en þá verða þau send með bréfdúfu til heimilis míns þar sem hundurinn minn tekur á móti þeim og kemur þeim svo áleiðis til mín.</p>
+							<form method="post" action="#">
+								<div class="fields">
+									<div class="field">
+										<label for="name">Fullt nafn</label>
+										<input type="text" name="name" id="name" />
+									</div>
+									<div class="field">
+										<label for="email">Uppáhalds bjór</label>
+										<input type="email" name="email" id="email" />
+									</div>
+									<div class="field">
+										<label for="message">Skilaboð</label>
+										<textarea name="message" id="message" rows="4"></textarea>
+									</div>
+								</div>
+								<a href="takk.html" class="button primary">Senda skilaboð</a>
+							</form>
+							<ul>
+								<li class="icon solid fa-home">
+									Lindarbyggð 24<br />
+									270 Mosfellsbær, Iceland
+								</li>
+								<li class="icon solid fa-phone">(+354) 863-0039</li>
+								<li class="icon solid fa-envelope">steinjon@hotmail.com</li>
+								<li class="icon brands fa-facebook-f"><a href="http://facebook.com/people/Þorsteinn-Jónsson/100002206548219">Þorsteinn Jónsson</a></li>
+								<li class="icon brands fa-instagram"><a href="http://instagram.com/steinistori">@steinistori</a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled Inc. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</section>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
